@@ -1,0 +1,99 @@
+@import "vars";
+@import "docs";
+@import "theme";
+@import "sitenav";
+@import "pagenav";
+@import "github_ribbon";
+@import "jumbotron";
+
+.bs-docs-container {
+  img {
+    max-width: 100%;
+  }
+}
+
+.bs-docs-masthead, .bs-docs-header {
+  padding-top: 112px;
+}
+
+.nav.bs-docs-sidenav {
+  a {
+    cursor: pointer;
+  }
+  .divider {
+    border-bottom: thin solid #999999;
+    margin: 20px 0 20px 20px;
+  }
+  .divider-subheader {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #cccccc;
+    border: none;
+    margin-top: 20px;
+  }
+}
+
+#footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.bs-docs-footer .icons {
+  font-size: 48px;
+  a {
+    padding: 0 12px;
+  }
+}
+
+@media screen and (min-width: 43.26em) {
+  #jumbotron.bs-docs-masthead.full-size {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .home-title img {
+      width: 60%;
+    }
+  }
+}
+
+@media screen and (max-width: 43.25em) {
+  #jumbotron.bs-docs-masthead.full-size {
+    height: initial;
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.strobe {
+  animation: strobe 2s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes strobe {
+  from, to {
+    filter: drop-shadow(-4px 4px 8px #EFEFEF);
+  }
+  50% {
+    filter: drop-shadow(-4px 4px 10px #F4F4F4);
+  }
+}
+
+.tab-pane {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  margin-bottom: 20px;
+}

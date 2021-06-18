@@ -1,0 +1,41 @@
+@import "vars";
+
+.bs-docs-sidebar {
+  .nav.bs-docs-sidenav {
+    li {
+      white-space: nowrap;
+      overflow-x: hidden;
+    }
+  }
+
+  .nav > .active > a, .nav > .active:hover > a, .nav > .active:focus > a {
+    color: $primaryColor;
+
+    border-left: 2px solid $primaryColor;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    color: $primaryColor;
+    border-left: 1px solid $primaryColor;
+  }
+
+  &.affix {
+    top: 72px !important;
+  }
+}
+
+.bs-docs-sidebar .nav > li > a {
+  font-size: 15px;
+}
+
+.bs-docs-sidebar .nav .nav > li > a {
+  font-size: 14px;
+}
+
+.back-to-top {
+  font-size: 13px;
+
+  &:hover {
+    color: $primaryColor;
+  }
+}

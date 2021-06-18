@@ -1,0 +1,36 @@
+<footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    {% if page.previous is not empty %}
+                        <li class="previous">
+                            <a href="{{ page.previous.link }}">
+                                <span aria-hidden="true">&larr;</span>
+                                <span>{{ page.previous.title }}</span>
+                            </a>
+                        </li>
+                    {% endif %}
+
+                    {% if page.next is not empty %}
+                        <li class="next">
+                            <a href="{{ page.next.link }}">
+                                <span>{{ page.next.title }}</span>
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    {% if site.about.social is not empty %}
+    {% for item in site.about.social.items %}
+        <a href="{{ item.link }}" class="fa {{ item.icon }}"></a>
+    {% endfor %}
+    {% endif %}
+    </div>
+    <br>
+    {% include 'includes/copyright' %}
+</footer>

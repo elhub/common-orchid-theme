@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% head %}
+</head>
+<body>
+{% body %}
+
+{% block baseNavbar %}
+{% if site.about.social.github is not empty or theme.github %}
+<a class="github-fork-ribbon {% block ribbonSide %}{{ 'left-top' }}{% endblock %}"
+   href="https://github.com/{{ site.about.social.github | default(theme.github) }}"
+   title="Fork me on GitHub">Fork me on GitHub</a>
+{% endif %}
+
+{% include 'includes/navbar' %}
+{% endblock %}
+
+<div id="top"></div>
+
+{% block baseJumbotron %}
+{% endblock %}
+{% block baseBody %}
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        {% breadcrumbs %}
+        {% block pageContent %}
+
+        {% endblock %}
+        {% block remainingComponents %}
+            {% page %}
+        {% endblock %}
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        {% include 'includes/sidenav' %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block baseFooter %}
+<div id="footer">
+    <div class="container bs-docs-container">
+    {% include 'includes/footer' %}
+    </div>
+</div>
+{% endblock %}
+
+{% endbody %}
+{% block layoutScripts %}{% endblock %}
+<script>
+    $(function () {
+        window.colors = ['{{ theme.primaryColor }}', '{{ theme.secondaryColor }}'];
+        {% block setupJumbotron %}{% endblock %}
+        buildNav();
+    });
+</script>
+</body>
+</html>

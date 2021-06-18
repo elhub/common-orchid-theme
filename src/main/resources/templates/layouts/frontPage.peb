@@ -1,0 +1,19 @@
+{% extends 'layouts/trianglifyBase' %}
+
+{% block baseJumbotron %}
+    <div class="bs-docs-masthead" id="jumbotron">
+        <div class="container">
+            <h1 class="home-title">{{ site.about.siteName }}</h1>
+            <p class="lead">{{ site.about.siteDescription }}</p>
+            {% if site.about.social.github is not empty %}
+                <p class="lead">
+                    <a href="https://github.com/{{ site.about.social.github }}"
+                       class="btn btn-outline-inverse btn-lg">Download</a>
+                </p>
+            {% endif %}
+            {% if theme.showVersion %}
+                <p class="version">Currently {{ site.version }}</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
