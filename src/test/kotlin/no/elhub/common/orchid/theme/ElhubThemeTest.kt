@@ -1,15 +1,14 @@
-package com.eden.orchid.bsdoc.no.elhub.common.orchid.theme
+package no.elhub.common.orchid.theme
 
 import com.eden.orchid.impl.generators.HomepageGenerator
 import com.eden.orchid.strikt.pageWasRendered
 import com.eden.orchid.testhelpers.OrchidIntegrationTest
 import com.eden.orchid.testhelpers.withGenerator
-import no.elhub.common.orchid.theme.BsDocModule
 import org.junit.jupiter.api.Test
 import strikt.api.expectThat
 import strikt.assertions.contains
 
-class BsDocThemeTest : OrchidIntegrationTest(withGenerator<HomepageGenerator>(), BsDocModule()) {
+class ElhubThemeTest : OrchidIntegrationTest(withGenerator<HomepageGenerator>(), ElhubModule()) {
 
     @Test
     fun test01() {
@@ -17,7 +16,7 @@ class BsDocThemeTest : OrchidIntegrationTest(withGenerator<HomepageGenerator>(),
             "site",
             """
             |{
-            |   "theme": "BsDoc"
+            |   "theme": "Elhub"
             |}
             """.trimMargin()
         )

@@ -15,13 +15,13 @@ import com.eden.orchid.api.theme.models.SiteSocial
 import org.json.JSONObject
 import javax.inject.Inject
 
-@Description("A theme based on the Bootstrap 3 documentation, and good for code documentation.", name="BsDoc")
-@Archetype(value = ConfigArchetype::class, key = "BsDoc")
-class BSDocTheme
+@Description("A theme based on the Bootstrap 3 documentation and used in all Elhub projects", name="Elhub")
+@Archetype(value = ConfigArchetype::class, key = "Elhub")
+class ElhubTheme
 @Inject
 constructor(
         context: OrchidContext
-) : Theme(context, "BsDoc") {
+) : Theme(context, "Elhub") {
 
     @Option
     @StringDefault("#4C376C")
