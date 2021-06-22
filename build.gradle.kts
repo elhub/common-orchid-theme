@@ -1,6 +1,7 @@
-apply(from = "$rootDir/gradle/groups/mainProjects.gradle")
-apply(from = "$rootDir/gradle/groups/themeProjects.gradle")
+group = "no.elhub.common"
+description = "Elhub Theme for Orchid Docs"
 
 dependencies {
-
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 }

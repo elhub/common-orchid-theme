@@ -11,7 +11,10 @@
             "type": "generated"
         },
         "chmod": {
-            "type": "chmod"
+            "type": "chmod",
+            "exclude": [
+                "(gradlew.bat)"
+            ]
         },
         "filename": {
             "type": "filename"
