@@ -1,4 +1,4 @@
-package com.eden.orchid.bsdoc
+package no.elhub.common.orchid.theme
 
 import com.eden.orchid.api.registration.OrchidModule
 import com.eden.orchid.api.theme.Theme

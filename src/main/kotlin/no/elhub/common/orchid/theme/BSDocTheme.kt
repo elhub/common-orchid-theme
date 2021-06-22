@@ -1,4 +1,4 @@
-package com.eden.orchid.bsdoc
+package no.elhub.common.orchid.theme
 
 import com.eden.common.util.EdenUtils
 import com.eden.orchid.api.OrchidContext
@@ -10,7 +10,6 @@ import com.eden.orchid.api.options.annotations.StringDefault
 import com.eden.orchid.api.options.archetypes.ConfigArchetype
 import com.eden.orchid.api.theme.Theme
 import com.eden.orchid.api.theme.assets.AssetManagerDelegate
-import com.eden.orchid.api.theme.assets.CssPage
 import com.eden.orchid.api.theme.components.ComponentHolder
 import com.eden.orchid.api.theme.models.SiteSocial
 import org.json.JSONObject
