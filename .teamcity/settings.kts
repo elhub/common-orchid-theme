@@ -1,7 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.v2019_2.DslContext
 import jetbrains.buildServer.configs.kotlin.v2019_2.buildFeatures.SshAgent
 import jetbrains.buildServer.configs.kotlin.v2019_2.project
-import jetbrains.buildServer.configs.kotlin.v2019_2.sequential
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.VcsTrigger
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.vcs
 import jetbrains.buildServer.configs.kotlin.v2019_2.version
@@ -26,7 +25,8 @@ project {
     val unitTest = UnitTest(
         UnitTest.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE
+            type = ProjectType.GRADLE,
+            generateAllureReport = false
         )
     )
 
