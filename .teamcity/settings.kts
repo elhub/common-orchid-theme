@@ -16,7 +16,8 @@ version = "2020.2"
 
 project {
 
-    val projectId = "no.elhub.common:elhub-orchid-theme"
+    val projectId = "no.elhub.common:common-orchid-theme"
+    val artifactoryRepository = "elhub-mvn-release-local"
 
     params {
         param("teamcity.ui.settings.readOnly", "true")
@@ -61,7 +62,8 @@ project {
         AutoRelease.Config(
             vcsRoot = DslContext.settingsRoot,
             type = ProjectType.GRADLE,
-            sshAgent = githubAuth
+            sshAgent = githubAuth,
+            repository = artifactoryRepository
         )
     ) {
         triggers {

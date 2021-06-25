@@ -1,1 +1,1 @@
-rootProject.name = "elhub-orchid-theme"
+rootProject.name = "common-orchid-theme"
