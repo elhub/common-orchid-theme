@@ -1,12 +1,19 @@
 # Project Name
 
-<!-- PROJECT SHIELDS -->
 <!--
-*** Add Project Shields here. Several of Elhubs systems provide shields, so why not use them to give info at a glance.
-*** [TeamCity Builds][SonarQube Quality Gate][SonarQube Vulnerabilities][SonarQube bugs][SonarQube smells][SonarQube Coverage]
+*** We make use of project shields to provide useful stats about the project at a glance.
+*** Add the relevant IDs/URLs as suggested in the comments
+*** For the sonarsource links, do a query replace of no.elhub.tools with the relevant package of your project and dev-tools with the name of the project
 -->
+[![Git Repository](https://img.shields.io/badge/repo-bitbucket-blue)](<!--TODO Add repository url here -->)
+[![Jira Issues](https://img.shields.io/badge/issues-jira-orange)](<!--TODO Add a jira url here -->)
+![TeamCity Build](https://teamcity.elhub.cloud/app/rest/builds/buildType:(id:<!--TODO Add TeamCity project ID here -->)/statusIcon)
+[![Quality Gate Status](https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.tools%3Adev-tools&metric=alert_status)](https://sonar.elhub.cloud/dashboard?id=no.elhub.tools%3Adev-tools)
+[![Lines of Code](https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.tools%3Adev-tools&metric=ncloc)](https://sonar.elhub.cloud/dashboard?id=no.elhub.tools%3Adev-tools)
+[![Bugs](https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.tools%3Adev-tools&metric=bugs)](https://sonar.elhub.cloud/dashboard?id=no.elhub.tools%3Adev-tools)
+[![Vulnerabilities](https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.tools%3Adev-tools&metric=vulnerabilities)](https://sonar.elhub.cloud/dashboard?id=no.elhub.tools%3Adev-tools)
+[![Coverage](https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.test%3Atest-data-gen&metric=coverage)](https://sonar.elhub.cloud/dashboard?id=no.elhub.test%3Atest-data-gen)
 
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About](#about)
@@ -15,23 +22,18 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#testing)
-* [Issues](link-to-issues)
-* [Contributing](link-to-contributing-file)
-* [License](link-to-license-file)
-* [Owners](link-to-codeowners-file)
-* [Meta](#meta)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [Owners](#owners)
+* [License](#license)
 
 
-<!-- ABOUT THE PROJECT -->
 ## About
 
-The theme used for orchid generated docs of the Elhub system.
+One to two paragraph statement about the project and what it does.
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
-
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -42,7 +44,7 @@ npm install npm@latest -g
 ```
 
 ### Installation
-
+git
 1. Clone the repo
 ```sh
 git clone https://github.com/github_username/repo_name.git
@@ -52,8 +54,6 @@ git clone https://github.com/github_username/repo_name.git
 npm install
 ```
 
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how the project can be used. Screenshots, code examples and demos work well in this space. You may also link to
@@ -61,8 +61,6 @@ more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
-<!-- TESTING -->
 ## Testing
 
 Explain how to run the automated tests for this system if appropriate.
@@ -71,13 +69,20 @@ Explain how to run the automated tests for this system if appropriate.
 Give an example
 ```
 
-<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://jira.elhub.cloud/link-to-issues) for a list of proposed features (and known issues).
 
+## Contributing
 
-<!-- META -->
-## Meta
+Contributing, issues and feature requests are welcome. See the
+[Contributing](https://link-to/CONTRIBUTING.md) file.
 
-* [Relevant Link](https://elhub.cloud)
+## Owners
+
+This project is developed by [Elhub](https://wwww.elhub.no). For the specific development group responsible for this
+code, see the [Codeowners](https://link-to/CODEOWNERS) file.
+
+## License
+
+This project is [MIT](https://link-to/LICENSE.md) licensed.

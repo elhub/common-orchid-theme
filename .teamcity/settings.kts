@@ -25,8 +25,7 @@ project {
     val unitTest = UnitTest(
         UnitTest.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE,
-            generateAllureReport = false
+            type = ProjectType.GRADLE
         )
     )
 
