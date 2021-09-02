@@ -8,6 +8,7 @@ import no.elhub.common.build.configuration.Assemble
 import no.elhub.common.build.configuration.AutoRelease
 import no.elhub.common.build.configuration.CodeReview
 import no.elhub.common.build.configuration.ProjectType
+import no.elhub.common.build.configuration.PublishDocs
 import no.elhub.common.build.configuration.SonarScan
 import no.elhub.common.build.configuration.UnitTest
 import no.elhub.common.build.configuration.constants.GlobalTokens
@@ -16,6 +17,7 @@ version = "2021.1"
 
 project {
 
+    val projectType = ProjectType.GRADLE
     val projectId = "no.elhub.common:common-orchid-theme"
     val artifactoryRepository = "elhub-mvn-release-local"
 
@@ -26,14 +28,14 @@ project {
     val unitTest = UnitTest(
         UnitTest.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE
+            type = projectType
         )
     )
 
     val sonarScan = SonarScan(
         SonarScan.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE,
+            type = projectType,
             sonarId = projectId
         )
     ) {
@@ -45,7 +47,7 @@ project {
     val assemble = Assemble(
         Assemble.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE
+            type = projectType
         )
     ) {
         dependencies {
@@ -61,7 +63,7 @@ project {
     val autoRelease = AutoRelease(
         AutoRelease.Config(
             vcsRoot = DslContext.settingsRoot,
-            type = ProjectType.GRADLE,
+            type = projectType,
             sshAgent = githubAuth,
             repository = artifactoryRepository
         )
@@ -75,7 +77,7 @@ project {
         PublishDocs.Config(
             vcsRoot = DslContext.settingsRoot,
             type = projectType,
-            dest = "common/common-orchid-theme
+            dest = "common/common-orchid-theme"
         )
     ) {
         triggers {
@@ -96,7 +98,7 @@ project {
         CodeReview(
             CodeReview.Config(
                 vcsRoot = DslContext.settingsRoot,
-                type = ProjectType.GRADLE,
+                type = projectType,
                 sonarId = projectId
             )
         )
