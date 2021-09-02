@@ -41,7 +41,7 @@ body {
   border-color: #fff
 }
 
-.bs-docs-booticon {
+.elhub-docs-booticon {
   display: block;
   font-weight: 500;
   color: #fff;
@@ -51,114 +51,114 @@ body {
   text-align: center
 }
 
-.bs-docs-booticon-sm {
+.elhub-docs-booticon-sm {
   width: 30px;
   height: 30px;
   font-size: 20px;
   line-height: 28px
 }
 
-.bs-docs-booticon-lg {
+.elhub-docs-booticon-lg {
   width: 144px;
   height: 144px;
   font-size: 108px;
   line-height: 140px
 }
 
-.bs-docs-booticon-inverse {
+.elhub-docs-booticon-inverse {
   color: $primaryColor;
   background-color: #fff
 }
 
-.bs-docs-booticon-outline {
+.elhub-docs-booticon-outline {
   background-color: transparent;
   border: 1px solid lighten($primaryColor, 50%)
 }
 
-.bs-docs-nav {
+.elhub-docs-nav {
   margin-bottom: 0;
   background-color: #fff;
   border-bottom: 0
 }
 
-.bs-home-nav .bs-nav-b {
+.elhub-home-nav .elhub-nav-b {
   display: none
 }
 
-.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
+.elhub-docs-nav .navbar-brand, .elhub-docs-nav .navbar-nav > li > a {
   color: $primaryColor;
   font-weight: 500
 }
 
-.bs-docs-nav .navbar-nav > li > a:hover, .bs-docs-nav .navbar-nav > .active > a, .bs-docs-nav .navbar-nav > .active > a:hover {
+.elhub-docs-nav .navbar-nav > li > a:hover, .elhub-docs-nav .navbar-nav > .active > a, .elhub-docs-nav .navbar-nav > .active > a:hover {
   color: darken($primaryColor, 10%);
   background-color: #f9f9f9
 }
 
-.bs-docs-nav .navbar-toggle .icon-bar {
+.elhub-docs-nav .navbar-toggle .icon-bar {
   background-color: $primaryColor
 }
 
-.bs-docs-nav .navbar-header .navbar-toggle {
+.elhub-docs-nav .navbar-header .navbar-toggle {
   border-color: #fff
 }
 
-.bs-docs-nav .navbar-header .navbar-toggle:hover, .bs-docs-nav .navbar-header .navbar-toggle:focus {
+.elhub-docs-nav .navbar-header .navbar-toggle:hover, .elhub-docs-nav .navbar-header .navbar-toggle:focus {
   background-color: #f9f9f9;
   border-color: #f9f9f9
 }
 
-.bs-docs-footer {
+.elhub-docs-footer {
   padding-bottom: 40px;
   color: #777;
   text-align: center;
 }
 
-.bs-docs-footer-links {
+.elhub-docs-footer-links {
   margin-top: 20px;
   padding-left: 0;
   color: #999
 }
 
-.bs-docs-footer-links li {
+.elhub-docs-footer-links li {
   display: inline;
   padding: 0 2px
 }
 
-.bs-docs-footer-links li:first-child {
+.elhub-docs-footer-links li:first-child {
   padding-left: 0
 }
 
 @media (min-width: 768px) {
-  .bs-docs-footer p {
+  .elhub-docs-footer p {
     margin-bottom: 0
   }
 
 }
 
-.bs-docs-social {
+.elhub-docs-social {
   margin-bottom: 20px;
   text-align: center
 }
 
-.bs-docs-social-buttons {
+.elhub-docs-social-buttons {
   display: inline-block;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none
 }
 
-.bs-docs-social-buttons li {
+.elhub-docs-social-buttons li {
   display: inline-block;
   line-height: 1;
   padding: 5px 8px
 }
 
-.bs-docs-social-buttons .twitter-follow-button {
+.elhub-docs-social-buttons .twitter-follow-button {
   width: 225px !important
 }
 
-.bs-docs-social-buttons .twitter-share-button {
+.elhub-docs-social-buttons .twitter-share-button {
   width: 98px !important
 }
 
@@ -167,7 +167,7 @@ body {
   overflow: hidden
 }
 
-.bs-docs-masthead, .bs-docs-header {
+.elhub-docs-masthead, .elhub-docs-header {
   position: relative;
   padding: 30px 15px;
   color: lighten($primaryColor, 50%);
@@ -180,93 +180,93 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColor', endColorstr='lighten($primaryColor, 10%)', GradientType=0)
 }
 
-.bs-docs-masthead .bs-docs-booticon {
+.elhub-docs-masthead .elhub-docs-booticon {
   margin: 0 auto 30px
 }
 
-.bs-docs-masthead h1 {
+.elhub-docs-masthead h1 {
   font-weight: 300;
   line-height: 1;
   color: #fff
 }
 
-.bs-docs-masthead .lead {
+.elhub-docs-masthead .lead {
   margin: 0 auto 30px;
   font-size: 20px;
   color: #fff
 }
 
-.bs-docs-masthead .version {
+.elhub-docs-masthead .version {
   margin-top: -15px;
   margin-bottom: 30px;
   color: lighten($primaryColor, 25%)
 }
 
-.bs-docs-masthead .btn {
+.elhub-docs-masthead .btn {
   width: 100%;
   padding: 15px 30px;
   font-size: 20px
 }
 
 @media (min-width: 480px) {
-  .bs-docs-masthead .btn {
+  .elhub-docs-masthead .btn {
     width: auto
   }
 }
 
 @media (min-width: 768px) {
-  .bs-docs-masthead {
+  .elhub-docs-masthead {
     padding-top: 80px;
     padding-bottom: 80px
   }
 
-  .bs-docs-masthead h1 {
+  .elhub-docs-masthead h1 {
     font-size: 60px
   }
 
-  .bs-docs-masthead .lead {
+  .elhub-docs-masthead .lead {
     font-size: 24px
   }
 
 }
 
 @media (min-width: 992px) {
-  .bs-docs-masthead .lead {
+  .elhub-docs-masthead .lead {
     width: 80%;
     font-size: 30px
   }
 
 }
 
-.bs-docs-header {
+.elhub-docs-header {
   margin-bottom: 40px;
   font-size: 20px
 }
 
-.bs-docs-header h1 {
+.elhub-docs-header h1 {
   margin-top: 0;
   color: #fff
 }
 
-.bs-docs-header p {
+.elhub-docs-header p {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 1.4
 }
 
-.bs-docs-header .container {
+.elhub-docs-header .container {
   position: relative
 }
 
 @media (min-width: 768px) {
-  .bs-docs-header {
+  .elhub-docs-header {
     padding-top: 110px;
     padding-bottom: 60px;
     font-size: 24px;
     text-align: left
   }
 
-  .bs-docs-header h1 {
+  .elhub-docs-header h1 {
     font-size: 60px;
     line-height: 1
   }
@@ -274,7 +274,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  .bs-docs-header h1, .bs-docs-header p {
+  .elhub-docs-header h1, .elhub-docs-header p {
     margin-right: 380px
   }
 
@@ -332,7 +332,7 @@ body {
     border-width: 1px !important
   }
 
-  .bs-docs-masthead .carbonad {
+  .elhub-docs-masthead .carbonad {
     margin: 50px auto 0 !important
   }
 
@@ -356,13 +356,13 @@ body {
     width: 330px !important
   }
 
-  .bs-docs-masthead .carbonad {
+  .elhub-docs-masthead .carbonad {
     position: static
   }
 
 }
 
-.bs-docs-featurette {
+.elhub-docs-featurette {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 16px;
@@ -373,12 +373,12 @@ body {
   border-bottom: 1px solid #e5e5e5
 }
 
-.bs-docs-featurette + .bs-docs-footer {
+.elhub-docs-featurette + .elhub-docs-footer {
   margin-top: 0;
   border-top: 0
 }
 
-.bs-docs-featurette-title {
+.elhub-docs-featurette-title {
   font-size: 30px;
   font-weight: 400;
   color: #333;
@@ -390,94 +390,94 @@ body {
   margin: 40px auto
 }
 
-.bs-docs-featurette h3 {
+.elhub-docs-featurette h3 {
   font-weight: 400;
   color: #333;
   margin-bottom: 5px
 }
 
-.bs-docs-featurette-img {
+.elhub-docs-featurette-img {
   display: block;
   margin-bottom: 20px;
   color: #333
 }
 
-.bs-docs-featurette-img:hover {
+.elhub-docs-featurette-img:hover {
   text-decoration: none;
   color: #428bca
 }
 
-.bs-docs-featurette-img img {
+.elhub-docs-featurette-img img {
   display: block;
   margin-bottom: 15px
 }
 
-.bs-docs-featured-sites {
+.elhub-docs-featured-sites {
   margin-left: -1px;
   margin-right: -1px
 }
 
-.bs-docs-featured-sites .col-sm-3 {
+.elhub-docs-featured-sites .col-sm-3 {
   padding-left: 1px;
   padding-right: 1px
 }
 
 @media (min-width: 480px) {
-  .bs-docs-featurette .img-responsive {
+  .elhub-docs-featurette .img-responsive {
     margin-top: 30px
   }
 
 }
 
 @media (min-width: 768px) {
-  .bs-docs-featurette {
+  .elhub-docs-featurette {
     padding-top: 100px;
     padding-bottom: 100px
   }
 
-  .bs-docs-featurette-title {
+  .elhub-docs-featurette-title {
     font-size: 40px
   }
 
-  .bs-docs-featurette .lead {
+  .elhub-docs-featurette .lead {
     margin-left: auto;
     margin-right: auto;
     max-width: 80%
   }
 
-  .bs-docs-featured-sites .col-sm-3:first-child img {
+  .elhub-docs-featured-sites .col-sm-3:first-child img {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px
   }
 
-  .bs-docs-featured-sites .col-sm-3:last-child img {
+  .elhub-docs-featured-sites .col-sm-3:last-child img {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px
   }
 
-  .bs-docs-featurette .img-responsive {
+  .elhub-docs-featurette .img-responsive {
     margin-top: 0
   }
 
 }
 
-.bs-docs-sidebar.affix {
+.elhub-docs-sidebar.affix {
   position: static
 }
 
 @media (min-width: 768px) {
-  .bs-docs-sidebar {
+  .elhub-docs-sidebar {
     padding-left: 20px
   }
 
 }
 
-.bs-docs-sidenav {
+.elhub-docs-sidenav {
   margin-top: 20px;
   margin-bottom: 20px
 }
 
-.bs-docs-sidebar .nav > li > a {
+.elhub-docs-sidebar .nav > li > a {
   display: block;
   font-size: 13px;
   font-weight: 500;
@@ -485,7 +485,7 @@ body {
   padding: 4px 20px
 }
 
-.bs-docs-sidebar .nav > li > a:hover, .bs-docs-sidebar .nav > li > a:focus {
+.elhub-docs-sidebar .nav > li > a:hover, .elhub-docs-sidebar .nav > li > a:focus {
   padding-left: 19px;
   color: $primaryColor;
   text-decoration: none;
@@ -493,7 +493,7 @@ body {
   border-left: 1px solid $primaryColor
 }
 
-.bs-docs-sidebar .nav > .active > a, .bs-docs-sidebar .nav > .active:hover > a, .bs-docs-sidebar .nav > .active:focus > a {
+.elhub-docs-sidebar .nav > .active > a, .elhub-docs-sidebar .nav > .active:hover > a, .elhub-docs-sidebar .nav > .active:focus > a {
   padding-left: 18px;
   font-weight: 700;
   color: $primaryColor;
@@ -501,12 +501,12 @@ body {
   border-left: 2px solid $primaryColor
 }
 
-.bs-docs-sidebar .nav .nav {
+.elhub-docs-sidebar .nav .nav {
   display: none;
   padding-bottom: 10px
 }
 
-.bs-docs-sidebar .nav .nav > li > a {
+.elhub-docs-sidebar .nav .nav > li > a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 30px;
@@ -514,11 +514,11 @@ body {
   font-weight: 400
 }
 
-.bs-docs-sidebar .nav .nav > li > a:hover, .bs-docs-sidebar .nav .nav > li > a:focus {
+.elhub-docs-sidebar .nav .nav > li > a:hover, .elhub-docs-sidebar .nav .nav > li > a:focus {
   padding-left: 29px
 }
 
-.bs-docs-sidebar .nav .nav > .active > a, .bs-docs-sidebar .nav .nav > .active:hover > a, .bs-docs-sidebar .nav .nav > .active:focus > a {
+.elhub-docs-sidebar .nav .nav > .active > a, .elhub-docs-sidebar .nav .nav > .active:hover > a, .elhub-docs-sidebar .nav .nav > .active:focus > a {
   font-weight: 500;
   padding-left: 28px
 }
@@ -546,24 +546,24 @@ body {
 }
 
 @media (min-width: 992px) {
-  .bs-docs-sidebar .nav > .active > ul {
+  .elhub-docs-sidebar .nav > .active > ul {
     display: block
   }
 
-  .bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+  .elhub-docs-sidebar.affix, .elhub-docs-sidebar.affix-bottom {
     width: 213px
   }
 
-  .bs-docs-sidebar.affix {
+  .elhub-docs-sidebar.affix {
     position: fixed;
     top: 20px
   }
 
-  .bs-docs-sidebar.affix-bottom {
+  .elhub-docs-sidebar.affix-bottom {
     position: absolute
   }
 
-  .bs-docs-sidebar.affix-bottom .bs-docs-sidenav, .bs-docs-sidebar.affix .bs-docs-sidenav {
+  .elhub-docs-sidebar.affix-bottom .elhub-docs-sidenav, .elhub-docs-sidebar.affix .elhub-docs-sidenav {
     margin-top: 0;
     margin-bottom: 0
   }
@@ -571,17 +571,17 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .bs-docs-sidebar.affix-bottom, .bs-docs-sidebar.affix {
+  .elhub-docs-sidebar.affix-bottom, .elhub-docs-sidebar.affix {
     width: 263px
   }
 
 }
 
-.bs-docs-section {
+.elhub-docs-section {
   margin-bottom: 60px
 }
 
-.bs-docs-section:last-child {
+.elhub-docs-section:last-child {
   margin-bottom: 0
 }
 
@@ -590,50 +590,50 @@ h1[id] {
   padding-top: 20px
 }
 
-.bs-callout {
+.elhub-callout {
   margin: 20px 0;
   padding: 20px;
   border-left: 3px solid #eee
 }
 
-.bs-callout h4 {
+.elhub-callout h4 {
   margin-top: 0;
   margin-bottom: 5px
 }
 
-.bs-callout p:last-child {
+.elhub-callout p:last-child {
   margin-bottom: 0
 }
 
-.bs-callout code {
+.elhub-callout code {
   background-color: #fff;
   border-radius: 3px
 }
 
-.bs-callout-danger {
+.elhub-callout-danger {
   background-color: #fdf7f7;
   border-color: #d9534f
 }
 
-.bs-callout-danger h4 {
+.elhub-callout-danger h4 {
   color: #d9534f
 }
 
-.bs-callout-warning {
+.elhub-callout-warning {
   background-color: #fcf8f2;
   border-color: #f0ad4e
 }
 
-.bs-callout-warning h4 {
+.elhub-callout-warning h4 {
   color: #f0ad4e
 }
 
-.bs-callout-info {
+.elhub-callout-info {
   background-color: #f4f8fa;
   border-color: #5bc0de
 }
 
-.bs-callout-info h4 {
+.elhub-callout-info h4 {
   color: #5bc0de
 }
 
@@ -698,40 +698,40 @@ h1[id] {
   background-color: #5bc0de
 }
 
-.color-swatches .bs-purple {
+.color-swatches .elhub-purple {
   background-color: $primaryColor
 }
 
-.color-swatches .bs-purple-light {
+.color-swatches .elhub-purple-light {
   background-color: #c7bfd3
 }
 
-.color-swatches .bs-purple-lighter {
+.color-swatches .elhub-purple-lighter {
   background-color: #e5e1ea
 }
 
-.color-swatches .bs-gray {
+.color-swatches .elhub-gray {
   background-color: #f9f9f9
 }
 
-.bs-team .team-member {
+.elhub-team .team-member {
   color: #555;
   line-height: 32px
 }
 
-.bs-team .team-member:hover {
+.elhub-team .team-member:hover {
   color: #333;
   text-decoration: none
 }
 
-.bs-team .github-btn {
+.elhub-team .github-btn {
   float: right;
   margin-top: 6px;
   width: 180px;
   height: 20px
 }
 
-.bs-team img {
+.elhub-team img {
   float: left;
   width: 32px;
   margin-right: 10px;
@@ -751,7 +751,7 @@ h1[id] {
   border: 1px solid rgba(86, 61, 124, .2)
 }
 
-.bs-example {
+.elhub-example {
   position: relative;
   padding: 45px 15px 15px;
   margin: 0 -15px 15px;
@@ -762,7 +762,7 @@ h1[id] {
   border-width: 1px 0
 }
 
-.bs-example:after {
+.elhub-example:after {
   content: "Example";
   position: absolute;
   top: 15px;
@@ -774,14 +774,14 @@ h1[id] {
   letter-spacing: 1px
 }
 
-.bs-example + .highlight {
+.elhub-example + .highlight {
   margin: -15px -15px 15px;
   border-radius: 0;
   border-width: 0 0 1px
 }
 
 @media (min-width: 768px) {
-  .bs-example {
+  .elhub-example {
     margin-left: 0;
     margin-right: 0;
     background-color: #fff;
@@ -791,7 +791,7 @@ h1[id] {
     box-shadow: none
   }
 
-  .bs-example + .highlight {
+  .elhub-example + .highlight {
     margin-top: -16px;
     margin-left: 0;
     margin-right: 0;
@@ -802,147 +802,147 @@ h1[id] {
 
 }
 
-.bs-example .container {
+.elhub-example .container {
   width: auto
 }
 
-.bs-example > p:last-child, .bs-example > ul:last-child, .bs-example > ol:last-child, .bs-example > blockquote:last-child, .bs-example > .form-control:last-child, .bs-example > .table:last-child, .bs-example > .navbar:last-child, .bs-example > .jumbotron:last-child, .bs-example > .alert:last-child, .bs-example > .panel:last-child, .bs-example > .list-group:last-child, .bs-example > .well:last-child, .bs-example > .progress:last-child, .bs-example > .table-responsive:last-child > .table {
+.elhub-example > p:last-child, .elhub-example > ul:last-child, .elhub-example > ol:last-child, .elhub-example > blockquote:last-child, .elhub-example > .form-control:last-child, .elhub-example > .table:last-child, .elhub-example > .navbar:last-child, .elhub-example > .jumbotron:last-child, .elhub-example > .alert:last-child, .elhub-example > .panel:last-child, .elhub-example > .list-group:last-child, .elhub-example > .well:last-child, .elhub-example > .progress:last-child, .elhub-example > .table-responsive:last-child > .table {
   margin-bottom: 0
 }
 
-.bs-example > p > .close {
+.elhub-example > p > .close {
   float: none
 }
 
-.bs-example-type .table .type-info {
+.elhub-example-type .table .type-info {
   color: #999;
   vertical-align: middle
 }
 
-.bs-example-type .table td {
+.elhub-example-type .table td {
   padding: 15px 0;
   border-color: #eee
 }
 
-.bs-example-type .table tr:first-child td {
+.elhub-example-type .table tr:first-child td {
   border-top: 0
 }
 
-.bs-example-type h1, .bs-example-type h2, .bs-example-type h3, .bs-example-type h4, .bs-example-type h5, .bs-example-type h6 {
+.elhub-example-type h1, .elhub-example-type h2, .elhub-example-type h3, .elhub-example-type h4, .elhub-example-type h5, .elhub-example-type h6 {
   margin: 0
 }
 
-.bs-example-bg-classes p {
+.elhub-example-bg-classes p {
   padding: 15px
 }
 
-.bs-example > .img-circle, .bs-example > .img-rounded, .bs-example > .img-thumbnail {
+.elhub-example > .img-circle, .elhub-example > .img-rounded, .elhub-example > .img-thumbnail {
   margin: 5px
 }
 
-.bs-example > .table-responsive > .table {
+.elhub-example > .table-responsive > .table {
   background-color: #fff
 }
 
-.bs-example > .btn, .bs-example > .btn-group {
+.elhub-example > .btn, .elhub-example > .btn-group {
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.bs-example > .btn-toolbar + .btn-toolbar {
+.elhub-example > .btn-toolbar + .btn-toolbar {
   margin-top: 10px
 }
 
-.bs-example-control-sizing select, .bs-example-control-sizing input[type=text] + input[type=text] {
+.elhub-example-control-sizing select, .elhub-example-control-sizing input[type=text] + input[type=text] {
   margin-top: 10px
 }
 
-.bs-example-form .input-group {
+.elhub-example-form .input-group {
   margin-bottom: 10px
 }
 
-.bs-example > textarea.form-control {
+.elhub-example > textarea.form-control {
   resize: vertical
 }
 
-.bs-example > .list-group {
+.elhub-example > .list-group {
   max-width: 400px
 }
 
-.bs-example .navbar:last-child {
+.elhub-example .navbar:last-child {
   margin-bottom: 0
 }
 
-.bs-navbar-top-example, .bs-navbar-bottom-example {
+.elhub-navbar-top-example, .elhub-navbar-bottom-example {
   z-index: 1;
   padding: 0;
   overflow: hidden
 }
 
-.bs-navbar-top-example .navbar-header, .bs-navbar-bottom-example .navbar-header {
+.elhub-navbar-top-example .navbar-header, .elhub-navbar-bottom-example .navbar-header {
   margin-left: 0
 }
 
-.bs-navbar-top-example .navbar-fixed-top, .bs-navbar-bottom-example .navbar-fixed-bottom {
+.elhub-navbar-top-example .navbar-fixed-top, .elhub-navbar-bottom-example .navbar-fixed-bottom {
   position: relative;
   margin-left: 0;
   margin-right: 0
 }
 
-.bs-navbar-top-example {
+.elhub-navbar-top-example {
   padding-bottom: 45px
 }
 
-.bs-navbar-top-example:after {
+.elhub-navbar-top-example:after {
   top: auto;
   bottom: 15px
 }
 
-.bs-navbar-top-example .navbar-fixed-top {
+.elhub-navbar-top-example .navbar-fixed-top {
   top: -1px
 }
 
-.bs-navbar-bottom-example {
+.elhub-navbar-bottom-example {
   padding-top: 45px
 }
 
-.bs-navbar-bottom-example .navbar-fixed-bottom {
+.elhub-navbar-bottom-example .navbar-fixed-bottom {
   bottom: -1px
 }
 
-.bs-navbar-bottom-example .navbar {
+.elhub-navbar-bottom-example .navbar {
   margin-bottom: 0
 }
 
 @media (min-width: 768px) {
-  .bs-navbar-top-example .navbar-fixed-top, .bs-navbar-bottom-example .navbar-fixed-bottom {
+  .elhub-navbar-top-example .navbar-fixed-top, .elhub-navbar-bottom-example .navbar-fixed-bottom {
     position: absolute
   }
 
-  .bs-navbar-top-example {
+  .elhub-navbar-top-example {
     border-radius: 0 0 4px 4px
   }
 
-  .bs-navbar-bottom-example {
+  .elhub-navbar-bottom-example {
     border-radius: 4px 4px 0 0
   }
 
 }
 
-.bs-example .pagination {
+.elhub-example .pagination {
   margin-top: 10px;
   margin-bottom: 10px
 }
 
-.bs-example > .pager {
+.elhub-example > .pager {
   margin-top: 0
 }
 
-.bs-example-modal {
+.elhub-example-modal {
   background-color: #f5f5f5
 }
 
-.bs-example-modal .modal {
+.elhub-example-modal .modal {
   position: relative;
   top: auto;
   right: auto;
@@ -952,37 +952,37 @@ h1[id] {
   display: block
 }
 
-.bs-example-modal .modal-dialog {
+.elhub-example-modal .modal-dialog {
   left: auto;
   margin-left: auto;
   margin-right: auto
 }
 
-.bs-example > .dropdown > .dropdown-menu {
+.elhub-example > .dropdown > .dropdown-menu {
   position: static;
   display: block;
   margin-bottom: 5px
 }
 
-.bs-example-tabs .nav-tabs {
+.elhub-example-tabs .nav-tabs {
   margin-bottom: 15px
 }
 
-.bs-example-tooltips {
+.elhub-example-tooltips {
   text-align: center
 }
 
-.bs-example-tooltips > .btn {
+.elhub-example-tooltips > .btn {
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.bs-example-popover {
+.elhub-example-popover {
   padding-bottom: 24px;
   background-color: #f9f9f9
 }
 
-.bs-example-popover .popover {
+.elhub-example-popover .popover {
   position: relative;
   display: block;
   float: left;
@@ -1032,7 +1032,7 @@ h1[id] {
   white-space: normal
 }
 
-.bs-table th small, .responsive-utilities th small {
+.elhub-table th small, .responsive-utilities th small {
   display: block;
   font-weight: 400;
   color: #999
@@ -1085,17 +1085,17 @@ h1[id] {
   border: 1px solid #d6e9c6
 }
 
-.bs-glyphicons {
+.elhub-glyphicons {
   margin: 0 -19px 20px -16px;
   overflow: hidden
 }
 
-.bs-glyphicons-list {
+.elhub-glyphicons-list {
   padding-left: 0;
   list-style: none
 }
 
-.bs-glyphicons li {
+.elhub-glyphicons li {
   float: left;
   width: 25%;
   height: 115px;
@@ -1107,73 +1107,73 @@ h1[id] {
   background-color: #f9f9f9
 }
 
-.bs-glyphicons .glyphicon {
+.elhub-glyphicons .glyphicon {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 24px
 }
 
-.bs-glyphicons .glyphicon-class {
+.elhub-glyphicons .glyphicon-class {
   display: block;
   text-align: center;
   word-wrap: break-word
 }
 
-.bs-glyphicons li:hover {
+.elhub-glyphicons li:hover {
   color: #fff;
   background-color: $primaryColor
 }
 
 @media (min-width: 768px) {
-  .bs-glyphicons {
+  .elhub-glyphicons {
     margin-left: 0;
     margin-right: 0
   }
 
-  .bs-glyphicons li {
+  .elhub-glyphicons li {
     width: 12.5%;
     font-size: 12px
   }
 
 }
 
-.bs-customizer .toggle {
+.elhub-customizer .toggle {
   float: right;
   margin-top: 25px
 }
 
-.bs-customizer label {
+.elhub-customizer label {
   margin-top: 10px;
   font-weight: 500;
   color: #555
 }
 
-.bs-customizer h2 {
+.elhub-customizer h2 {
   margin-top: 0;
   margin-bottom: 5px;
   padding-top: 30px
 }
 
-.bs-customizer h3 {
+.elhub-customizer h3 {
   margin-bottom: 0
 }
 
-.bs-customizer h4 {
+.elhub-customizer h4 {
   margin-top: 15px;
   margin-bottom: 0
 }
 
-.bs-customizer .bs-callout h4 {
+.elhub-customizer .elhub-callout h4 {
   margin-top: 0;
   margin-bottom: 5px
 }
 
-.bs-customizer input[type=text] {
+.elhub-customizer input[type=text] {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   background-color: #fafafa
 }
 
-.bs-customizer .help-block {
+.elhub-customizer .help-block {
   font-size: 12px;
   margin-bottom: 5px
 }
@@ -1182,18 +1182,18 @@ h1[id] {
   font-weight: 400
 }
 
-.bs-customizer-input {
+.elhub-customizer-input {
   float: left;
   width: 33.333333%;
   padding-left: 15px;
   padding-right: 15px
 }
 
-.bs-customize-download .btn-outline {
+.elhub-customize-download .btn-outline {
   padding: 20px
 }
 
-.bs-customizer-alert {
+.elhub-customizer-alert {
   position: fixed;
   top: 0;
   left: 0;
@@ -1206,20 +1206,20 @@ h1[id] {
   border-bottom: 1px solid #b94441
 }
 
-.bs-customizer-alert .close {
+.elhub-customizer-alert .close {
   margin-top: -4px;
   font-size: 24px
 }
 
-.bs-customizer-alert p {
+.elhub-customizer-alert p {
   margin-bottom: 0
 }
 
-.bs-customizer-alert .glyphicon {
+.elhub-customizer-alert .glyphicon {
   margin-right: 5px
 }
 
-.bs-customizer-alert pre {
+.elhub-customizer-alert pre {
   margin: 10px 0 0;
   color: #fff;
   background-color: #a83c3a;
@@ -1227,7 +1227,7 @@ h1[id] {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-.bs-brand-logos {
+.elhub-brand-logos {
   display: table;
   width: 100%;
   margin-bottom: 15px;
@@ -1237,31 +1237,31 @@ h1[id] {
   border-radius: 4px
 }
 
-.bs-brand-item {
+.elhub-brand-item {
   padding: 60px 0;
   text-align: center
 }
 
-.bs-brand-item + .bs-brand-item {
+.elhub-brand-item + .elhub-brand-item {
   border-top: 1px solid #fff
 }
 
-.bs-brand-logos .inverse {
+.elhub-brand-logos .inverse {
   color: #fff;
   background-color: $primaryColor
 }
 
-.bs-brand-item h1, .bs-brand-item h3 {
+.elhub-brand-item h1, .elhub-brand-item h3 {
   margin-top: 0;
   margin-bottom: 0
 }
 
-.bs-brand-item .bs-docs-booticon {
+.elhub-brand-item .elhub-docs-booticon {
   margin-left: auto;
   margin-right: auto
 }
 
-.bs-brand-item .glyphicon {
+.elhub-brand-item .glyphicon {
   width: 30px;
   height: 30px;
   margin: 10px auto -10px;
@@ -1270,40 +1270,40 @@ h1[id] {
   border-radius: 50%
 }
 
-.bs-brand-item .glyphicon-ok {
+.elhub-brand-item .glyphicon-ok {
   background-color: #5cb85c
 }
 
-.bs-brand-item .glyphicon-remove {
+.elhub-brand-item .glyphicon-remove {
   background-color: #d9534f
 }
 
 @media (min-width: 768px) {
-  .bs-brand-item {
+  .elhub-brand-item {
     display: table-cell;
     width: 1%
   }
 
-  .bs-brand-item + .bs-brand-item {
+  .elhub-brand-item + .elhub-brand-item {
     border-top: 0;
     border-left: 1px solid #fff
   }
 
-  .bs-brand-item h1 {
+  .elhub-brand-item h1 {
     font-size: 60px
   }
 
 }
 
-.bs-examples .thumbnail {
+.elhub-examples .thumbnail {
   margin-bottom: 10px
 }
 
-.bs-examples h4 {
+.elhub-examples h4 {
   margin-bottom: 5px
 }
 
-.bs-examples p {
+.elhub-examples p {
   margin-bottom: 20px
 }
 

@@ -21,7 +21,7 @@
 {% block baseJumbotron %}
 {% endblock %}
 {% block baseBody %}
-<div class="container bs-docs-container">
+<div class="container elhub-docs-container">
     <div class="row">
         <div class="col-md-9" role="main">
         {% breadcrumbs %}
@@ -43,7 +43,7 @@
 {% endblock %}
 {% block baseFooter %}
 <div id="footer">
-    <div class="container bs-docs-container">
+    <div class="container elhub-docs-container">
     {% include 'includes/footer' %}
     </div>
 </div>

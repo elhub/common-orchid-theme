@@ -12,7 +12,7 @@ import no.elhub.common.build.configuration.SonarScan
 import no.elhub.common.build.configuration.UnitTest
 import no.elhub.common.build.configuration.constants.GlobalTokens
 
-version = "2020.2"
+version = "2021.1"
 
 project {
 
@@ -66,6 +66,18 @@ project {
             repository = artifactoryRepository
         )
     ) {
+        dependencies {
+            snapshot(assemble) { }
+        }
+    }
+
+    val publishDocs = PublishDocs(
+        PublishDocs.Config(
+            vcsRoot = DslContext.settingsRoot,
+            type = projectType,
+            dest = "common/common-orchid-theme
+        )
+    ) {
         triggers {
             vcs {
                 branchFilter = "+:<default>"
@@ -74,11 +86,11 @@ project {
         }
 
         dependencies {
-            snapshot(assemble) { }
+            snapshot(autoRelease) { }
         }
     }
 
-    listOf(unitTest, sonarScan, assemble, autoRelease).forEach { buildType(it) }
+    listOf(unitTest, sonarScan, assemble, autoRelease, publishDocs).forEach { buildType(it) }
 
     buildType(
         CodeReview(

@@ -75,16 +75,16 @@ function setupSmoothScroll() {
 }
 
 function setupSidenavClick() {
-    $('.nav.bs-docs-sidenav li.has-children > a').click(function () {
+    $('.nav.elhub-docs-sidenav li.has-children > a').click(function () {
         $(this).parent().toggleClass('active');
     });
 }
 
 function setupScrollspy() {
-    var sidebar = $('#bs-docs-sidebar');
+    var sidebar = $('#elhub-docs-sidebar');
     if(sidebar.length > 0) {
         $('body').scrollspy({
-            target: '#bs-docs-sidebar',
+            target: '#elhub-docs-sidebar',
             offset: 100
         });
         sidebar.affix({

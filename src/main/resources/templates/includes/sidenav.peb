@@ -1,4 +1,4 @@
-<div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+<div class="elhub-docs-sidebar hidden-print" id="elhub-docs-sidebar">
     <section id="search" >
         <form data-orchid-search="{{ (searchIndices is not empty) ? searchIndices|join(',') : '' }}">
             <div class="input-group">
@@ -15,7 +15,7 @@
         </div>
     </section>
 
-    <ul class="nav bs-docs-sidenav">
+    <ul class="nav elhub-docs-sidenav">
         {% for menuItem in page.menu.getMenuItems(page) %}
         {# @pebvariable name="menuItem" type="com.eden.orchid.api.theme.menus.MenuItem" #}
             {% if menuItem.hasChildren() %}

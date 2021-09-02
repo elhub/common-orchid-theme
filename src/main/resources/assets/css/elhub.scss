@@ -6,17 +6,17 @@
 @import "github_ribbon";
 @import "jumbotron";
 
-.bs-docs-container {
+.elhub-docs-container {
   img {
     max-width: 100%;
   }
 }
 
-.bs-docs-masthead, .bs-docs-header {
+.elhub-docs-masthead, .elhub-docs-header {
   padding-top: 112px;
 }
 
-.nav.bs-docs-sidenav {
+.nav.elhub-docs-sidenav {
   a {
     cursor: pointer;
   }
@@ -40,7 +40,7 @@
   border-top: 1px solid #eee;
 }
 
-.bs-docs-footer .icons {
+.elhub-docs-footer .icons {
   font-size: 48px;
   a {
     padding: 0 12px;
@@ -48,8 +48,8 @@
 }
 
 @media screen and (min-width: 43.26em) {
-  #jumbotron.bs-docs-masthead.full-size {
-    height: 100vh;
+  #jumbotron.elhub-docs-masthead.full-size {
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@
 }
 
 @media screen and (max-width: 43.25em) {
-  #jumbotron.bs-docs-masthead.full-size {
+  #jumbotron.elhub-docs-masthead.full-size {
     height: initial;
     img {
       width: 80%;

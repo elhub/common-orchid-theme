@@ -1,10 +1,8 @@
 {% extends 'layouts/trianglifyBase' %}
 
 {% block baseJumbotron %}
-    <div class="bs-docs-masthead" id="jumbotron">
+    <div class="elhub-docs-masthead" id="jumbotron">
         <div class="container">
-            <h1 class="home-title">{{ site.about.siteName }}</h1>
-            <p class="lead">{{ site.about.siteDescription }}</p>
             {% if site.about.social.github is not empty %}
                 <p class="lead">
                     <a href="https://github.com/{{ site.about.social.github }}"

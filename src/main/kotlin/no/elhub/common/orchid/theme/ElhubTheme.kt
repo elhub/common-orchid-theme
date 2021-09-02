@@ -24,7 +24,7 @@ constructor(
 ) : Theme(context, "Elhub") {
 
     @Option
-    @StringDefault("#4C376C")
+    @StringDefault("#006600")
     @Description("The CSS HEX value for the site's primary color.")
     lateinit var primaryColor: String
 
@@ -64,7 +64,7 @@ constructor(
 
     @Option
     @BooleanDefault(true)
-    @Description("Whether to show the current verision in the header and footer..")
+    @Description("Whether to show the current version in the header and footer..")
     var showVersion: Boolean = true
 
     @Option
@@ -76,12 +76,12 @@ constructor(
         addCss("https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css") { download = false }
         addCss("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css") { download = false }
         addCss("https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css")
-        addCss("assets/css/bsdoc.scss")
+        addCss("assets/css/elhub.scss")
 
         addJs("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
         addJs("https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
         addJs("https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.min.js")
-        addJs("assets/js/bsdoc.js")
+        addJs("assets/js/elhub.js")
 
         addCss("assets/css/orchidSearch.scss")
     }
