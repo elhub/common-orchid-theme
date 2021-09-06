@@ -3,10 +3,10 @@
 [<img src="https://img.shields.io/badge/repo-github-blue" alt=""/>](https://github.com/elhub/common-orchid-theme)
 [<img src="https://img.shields.io/badge/issues-jira-orange" alt=""/>](https://jira.elhub.cloud/issues/?jql=project%20%3D%20%22Team%20Dev%22%20AND%20component%20%3D%20common-orchid-theme%20AND%20status%20!%3D%20Done)
 [<img src="https://teamcity.elhub.cloud/app/rest/builds/buildType:(id:Common_CommonOrchidTheme_AutoRelease)/statusIcon" alt=""/>](https://teamcity.elhub.cloud/project/Common_CommonOrchidTheme?mode=builds#all-projects)
-[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acomon-orchid-theme&metric=alert_status" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acomon-orchid-theme)
-[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acomon-orchid-theme&metric=ncloc" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acomon-orchid-theme)
-[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acomon-orchid-theme&metric=bugs" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acomon-orchid-theme)
-[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acomon-orchid-theme&metric=vulnerabilities" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acomon-orchid-theme)
+[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acommon-orchid-theme&metric=alert_status" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acommon-orchid-theme)
+[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acommon-orchid-theme&metric=ncloc" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acommon-orchid-theme)
+[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acommon-orchid-theme&metric=bugs" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acommon-orchid-theme)
+[<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acommon-orchid-theme&metric=vulnerabilities" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acommon-orchid-theme)
 [<img src="https://sonar.elhub.cloud/api/project_badges/measure?project=no.elhub.common%3Acommon-orchid-theme&metric=coverage" alt=""/>](https://sonar.elhub.cloud/dashboard?id=no.elhub.common%3Acommon-orchid-theme)
 
 ## Table of Contents
@@ -70,31 +70,10 @@ And set the theme to Elhub.
 
 ### Kotlin Script
 
-The following kscript file works for this project (assuming correct repository and theme dependency):
+The example/orchid.kts contains a kscript file that can be used to build and serve pages with this theme,
+assuming the repository and theme dependency is set up appropriately.
 
-```kotlin
-// orchid.kts
-@file:MavenRepository("elhub-mvn", "https://jfrog.elhub.cloud/artifactory/elhub-mvn")
-@file:DependsOn("io.github.javaeden.orchid:OrchidAll:0.21.1")
-@file:DependsOn("no.elhub.common:common-orchid-theme:1.0-SNAPSHOT")
-
-import com.eden.orchid.Orchid
-import com.eden.orchid.StandardModule
-
-val flags = HashMap<String, Any>()
-flags["version"] = "0.21.1"
-flags["theme"]  = "Elhub"
-flags["src"]  = "./docs"
-flags["dest"] = "./build/docs/orchid"
-flags["runTask"] = "build"
-
-val modules = listOf(StandardModule.builder()
-  .args(args) // pass in the array of command-line args and let Orchid parse them out
-  .flags(flags) // pass a map with any additional args
-  .build()
-)
-Orchid.getInstance().start(modules)
-```
+    kscript orchid.kts serve 
 
 ## Testing
 

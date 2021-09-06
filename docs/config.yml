@@ -1,19 +1,16 @@
 ---
 site:
-#  baseUrl: "https://docs.elhub.cloud/common/common-orchid-theme
-  baseUrl: "http://localhost:8080"
+  baseUrl: "https://docs.elhub.cloud/common/common-orchid-theme"
+  theme: Elhub
   about:
     siteName: common-orchid-theme
 
 kotlindoc:
   sourceDirs:
-    - '../src/main/kotlin'
+    - "../src/main/kotlin"
   args: ["-include", "packages.md"]
 
 Elhub:
-#  primaryColor: "#006600"
-#  secondaryColor: "#000000"
-#  linkColor: "#0096a9"
   legacySearch: false
   metaComponents:
     - type: 'orchidSearch'
