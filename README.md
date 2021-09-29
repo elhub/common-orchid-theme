@@ -16,6 +16,8 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+  * [Gradle](#gradle)
+  * [Kotlin](#kotlin-script)
 * [Testing](#testing)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
