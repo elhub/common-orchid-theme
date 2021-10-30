@@ -27,3 +27,7 @@ Elhub:
       node: "packages"
       asSubmenu: true
       submenuTitle: "Reference"
+    - type: "pages"
+      group: "about"
+      asSubmenu: true
+      submenuTitle: "About"
