@@ -13,7 +13,7 @@
     </parent>
 
     <properties>
-        <c-b-c.version>0.16.1</c-b-c.version>
+        <c-b-c.version>0.18.3</c-b-c.version>
     </properties>
 
     <repositories>
