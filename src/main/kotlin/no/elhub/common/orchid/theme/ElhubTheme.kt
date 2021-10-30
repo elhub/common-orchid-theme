@@ -71,6 +71,10 @@ constructor(
     @Description("Components to include in the sidebar, below the page menu.")
     lateinit var sidebar: ComponentHolder
 
+    @Option @StringDefault("assets/media/elhub-logo.svg")
+    @Description("An asset to use the for the logo.")
+    lateinit var logo: String
+
     override fun loadAssets(delegate: AssetManagerDelegate): Unit = with(delegate)  {
         // these assets include relative references to font files, which become invalid if the asset is downloaded locally and so need to stay as external assets even in production
         addCss("https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css") { download = false }
