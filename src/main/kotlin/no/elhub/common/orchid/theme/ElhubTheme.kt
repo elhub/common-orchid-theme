@@ -71,7 +71,7 @@ constructor(
     @Description("Components to include in the sidebar, below the page menu.")
     lateinit var sidebar: ComponentHolder
 
-    @Option @StringDefault("assets/media/elhub-logo.svg")
+    @Option @StringDefault("/assets/media/elhub-logo.svg")
     @Description("An asset to use the for the logo.")
     lateinit var logo: String
 
