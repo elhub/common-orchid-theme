@@ -1,8 +1,9 @@
+> [!WARNING]  
+> This project has been archived and is no longer being actively developed by Elhub.
+
 # common-orchid-theme
 
 [<img src="https://img.shields.io/badge/repo-github-blue" alt=""/>](https://github.com/elhub/common-orchid-theme)
-
-DEPRECATED - No longer actively maintained.
 
 ## Table of Contents
 
